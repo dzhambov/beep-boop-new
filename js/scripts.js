@@ -2,20 +2,21 @@
 $(document).ready(function() {
   $("#game").submit(function(event) {
     event.preventDefault();
-    var number = parseInt($("input#number").val().split());
-    var result = beepBoop(number);
-    console.log(number);
+    var userNumber = parseInt($("input#number").val());
+    var result = beepBoop(userNumber);
     $("#result").text(result);
   });
 });
 
 
 // Business logic
-var beepBoop = function (number)  {
+var beepBoop = function (userNumber) {
   var arr = [];
-  for (var i = 0; i <= number; i++) {
+  
+  for (var i = 0; i <= userNumber; i++) {
     if (i.toString().includes("3")) {
       arr.push("Sorry, You got Busted!");
+      console.log(userNumber);
     } else if (i.toString().includes("2")) {
       arr.push("I say Boop!");
     } else if (i.toString().includes("1")) {
