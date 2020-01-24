@@ -6,7 +6,7 @@
 
 ## Description
 
-_Beep,Boop, I'm sorry..., is a fun game where the user inputs a number and the game replaces every number one with "Beep", number two with "Boop" and number 3 with "I'm sorry Dave, I'm afraid I can't do that."_
+_Beep,Boop, I'm sorry..., is a fun game where the user inputs a number and the game replaces every number one with "Beep", number two with "Boop" and number three with "I'm sorry Dave, I'm afraid I can't do that."_
 
 ## Setup/Installation Requirements
 

@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px #f76565;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+body {
+  background-color:#d13d3d;
+  background-image: url(img/"Robot.jpg");
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.jumbotron {
+  background-color: yellow;
+}
+.panel-heading {
+  background-color: lightblue;
+}
+#result {
+  font-size: 40px;
+  font-style: italic;
+}
+img{
+  image-size: 95%;
+}
+#button {
+  border-radius: 50px;
+  background-color: orange;
+  border:5px solid black;
+}
