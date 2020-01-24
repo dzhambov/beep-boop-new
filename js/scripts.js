@@ -1,11 +1,28 @@
+// User interface logic
 $(document).ready(function() {
-  $("form#game").submit(function(event) {
+  $("#game").submit(function(event) {
     event.preventDefault();
-    var result =[];
-    var userNumbers = $("input#number").val().split(""); 
-    for(i = 0; i <=userNumbers.length; i++) {
-      console.log(userNumbers);
-
-    }
+    var number = parseInt($("input#number").val().split());
+    var result = beepBoop(number);
+    console.log(number);
+    $("#result").text(result);
   });
 });
+
+
+// Business logic
+var beepBoop = function (number)  {
+  var arr = [];
+  for (var i = 0; i <= number; i++) {
+    if (i.toString().includes("3")) {
+      arr.push("Sorry, You got Busted!");
+    } else if (i.toString().includes("2")) {
+      arr.push("I say Boop!");
+    } else if (i.toString().includes("1")) {
+      arr.push("You say Beep!");
+    } else {
+      arr.push(i);
+    }
+  }
+  return arr;
+};
