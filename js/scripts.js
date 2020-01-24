@@ -1,4 +1,5 @@
 // User interface logic
+
 $(document).ready(function() {
   $("#game").submit(function (event) {
     event.preventDefault();
@@ -14,6 +15,7 @@ $(document).ready(function() {
 
 
 // Business logic
+
 var beepBoop = function(userNumber) {
   var arr = [];
 
