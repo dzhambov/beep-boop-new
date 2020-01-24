@@ -16,7 +16,6 @@ var beepBoop = function (userNumber) {
   for (var i = 0; i <= userNumber; i++) {
     if (i.toString().includes("3")) {
       arr.push("Sorry, You got Busted!");
-      console.log(userNumber);
     } else if (i.toString().includes("2")) {
       arr.push("I say Boop!");
     } else if (i.toString().includes("1")) {
