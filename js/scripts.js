@@ -1,6 +1,6 @@
 // User interface logic
 $(document).ready(function() {
-  $("#game").submit(function(event) {
+  $("#game").submit(function (event) {
     event.preventDefault();
     var userNumber = parseInt($("input#number").val());
     var result = beepBoop(userNumber);
@@ -10,9 +10,9 @@ $(document).ready(function() {
 
 
 // Business logic
-var beepBoop = function (userNumber) {
+var beepBoop = function(userNumber) {
   var arr = [];
-  
+
   for (var i = 0; i <= userNumber; i++) {
     if (i.toString().includes("3")) {
       arr.push("Sorry, You got Busted!");
