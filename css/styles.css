@@ -2,10 +2,12 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px #f76565;
 }
+
 h3 {
   text-align: center;
   font-style: italic;
 }
+
 body {
   background-color:#d13d3d;
   background-image: url(img/"Robot.jpg");
@@ -14,21 +16,43 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .jumbotron {
   background-color: yellow;
 }
+
 .panel-heading {
   background-color: lightblue;
 }
+
 #result {
-  font-size: 40px;
+  font-size: 20px;
   font-style: italic;
+  position: absolute; 
+  top: 450px; 
+  left: 16%; 
+  width: 30%; 
 }
+
 img{
   image-size: 95%;
 }
+
 #button {
   border-radius: 50px;
   background-color: orange;
   border:5px solid black;
+  margin-left: 40px; 
+}
+
+#name {
+  margin-left: 40px;
+  border: solid 2px;
+  border-radius: 50px;
+}
+ 
+#number {
+  margin-left: 60px;
+  border: solid 2px;
+  border-radius: 50px;
 }
